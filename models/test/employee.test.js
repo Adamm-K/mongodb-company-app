@@ -1,7 +1,6 @@
 const Employee = require('../employee.model.js');
 const expect = require('chai').expect;
 const mongoose = require('mongoose');
-const e = require('cors');
 
 describe('Employee', () => {
   it('should throw an error if there is no arguments', () => {
